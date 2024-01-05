@@ -47,7 +47,7 @@
     "gatsby-plugin-pnpm": "1.2.10",
     "prop-types": "15.8.1",
     "storybook": "7.6.7",
-    "turbo": "1.11.2",
+    "turbo": "1.11.3",
     "typescript": "5.3.3"
   },
   "packageManager": "pnpm@8.14.0",
