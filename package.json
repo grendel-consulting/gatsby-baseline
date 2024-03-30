@@ -41,7 +41,7 @@
     "@storybook/react": "7.6.17",
     "@storybook/react-webpack5": "7.6.17",
     "@storybook/testing-library": "^0.2.0",
-    "@types/node": "20.11.30",
+    "@types/node": "20.12.2",
     "@types/react": "18.2.73",
     "@types/react-dom": "18.2.23",
     "gatsby-plugin-pnpm": "1.2.10",
