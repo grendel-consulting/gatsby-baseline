@@ -7,6 +7,10 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["@types", "lint", "prettier"],
       "automerge": true
+    },
+    {
+      "extends": "monorepo:storybook",
+      "groupName": "storybook"
     }
   ],
   "pre-commit": {
