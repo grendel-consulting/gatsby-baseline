@@ -40,7 +40,7 @@
     "@storybook/blocks": "7.6.17",
     "@storybook/react": "7.6.17",
     "@storybook/react-webpack5": "7.6.17",
-    "@storybook/testing-library": "^0.2.0",
+    "@storybook/testing-library": "0.2.2",
     "@types/node": "20.12.5",
     "@types/react": "18.2.74",
     "@types/react-dom": "18.2.24",
@@ -49,6 +49,11 @@
     "storybook": "7.6.17",
     "turbo": "1.13.2",
     "typescript": "5.4.4"
+  },
+  "pnpm" : {
+    "overrides": {
+    "axios": "1.6.4"
+    }
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
