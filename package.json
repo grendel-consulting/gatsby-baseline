@@ -26,8 +26,8 @@
     "gatsby-plugin-sitemap": "6.13.1",
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-sharp": "5.13.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@babel/preset-env": "7.24.4",
