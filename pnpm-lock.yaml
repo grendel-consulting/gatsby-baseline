@@ -3360,8 +3360,8 @@ packages:
   caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
 
-  caniuse-lite@1.0.30001621:
-    resolution: {integrity: sha512-+NLXZiviFFKX0fk8Piwv3PfLPGtRqJeq2TiNoUff/qB5KJgwecJTvCXDpmlyP/eCI/GUEmp/h/y5j0yckiiZrA==}
+  caniuse-lite@1.0.30001625:
+    resolution: {integrity: sha512-4KE9N2gcRH+HQhpeiRZXd+1niLB/XNLAhSy4z7fI8EzcbcPoAqjNInxVHTiTwWfTIV4w096XG8OtCOCQQKPv3w==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -12303,7 +12303,7 @@ snapshots:
   autoprefixer@10.4.15(postcss@8.4.28):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001621
+      caniuse-lite: 1.0.30001625
       fraction.js: 4.2.1
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -12591,7 +12591,7 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001621
+      caniuse-lite: 1.0.30001625
       electron-to-chromium: 1.4.711
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -12675,11 +12675,11 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001621
+      caniuse-lite: 1.0.30001625
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-lite@1.0.30001621: {}
+  caniuse-lite@1.0.30001625: {}
 
   capital-case@1.0.4:
     dependencies:
