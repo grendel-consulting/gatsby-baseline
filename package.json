@@ -48,7 +48,7 @@
     "prop-types": "15.8.1",
     "storybook": "7.6.20",
     "turbo": "2.0.6",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "pnpm" : {
     "overrides": {
