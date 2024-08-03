@@ -356,6 +356,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  '@babel/parser@7.25.3':
+    resolution: {integrity: sha512-iLTJKDbJ4hMvFPgQwwsVoxtHyWpKKPBrxkANrSYewDPaPpT5py5yeVkgPIJ7XYXhndxJpaA3PyALSXQ7u8e/Dw==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   '@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.0':
     resolution: {integrity: sha512-dG0aApncVQwAUJa8tP1VHTnmU67BeIQvKafd3raEx315H54FfkZSz3B/TT+33ZQAjatGJA79gZqTtqL5QZUKXw==}
     engines: {node: '>=6.9.0'}
@@ -959,6 +964,10 @@ packages:
 
   '@babel/traverse@7.25.2':
     resolution: {integrity: sha512-s4/r+a7xTnny2O6FcZzqgT6nE4/GHEdcqj4qAeglbUOh0TeglEfmNJFAd/OLoVtGd6ZhAO8GCVvCNUO5t/VJVQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/traverse@7.25.3':
+    resolution: {integrity: sha512-HefgyP1x754oGCsKmV5reSmtV7IXj/kpaE1XYY+D9G5PvKKoFfSbiS4M77MdjuwlZKDIKFCffq9rPU+H/s3ZdQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.24.0':
@@ -3319,8 +3328,8 @@ packages:
   caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
 
-  caniuse-lite@1.0.30001643:
-    resolution: {integrity: sha512-ERgWGNleEilSrHM6iUz/zJNSQTP8Mr21wDWpdgvRwcTXGAq6jMtOUPP4dqFPTdKqZ2wKTdtB+uucZ3MRpAUSmg==}
+  caniuse-lite@1.0.30001647:
+    resolution: {integrity: sha512-n83xdNiyeNcHpzWY+1aFbqCK7LuLfBricc4+alSQL2Xb6OR3XpnQAmlDG+pQcdTfiHRuLcQ96VOfrPSGiNJYSg==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -3720,6 +3729,15 @@ packages:
 
   debug@4.3.5:
     resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  debug@4.3.6:
+    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -8586,6 +8604,10 @@ snapshots:
     dependencies:
       '@babel/types': 7.25.0
 
+  '@babel/parser@7.25.3':
+    dependencies:
+      '@babel/types': 7.25.2
+
   '@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.0(@babel/core@7.24.0)':
     dependencies:
       '@babel/core': 7.24.0
@@ -9379,6 +9401,18 @@ snapshots:
       '@babel/template': 7.25.0
       '@babel/types': 7.25.2
       debug: 4.3.5
+      globals: 11.12.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/traverse@7.25.3':
+    dependencies:
+      '@babel/code-frame': 7.24.7
+      '@babel/generator': 7.25.0
+      '@babel/parser': 7.25.3
+      '@babel/template': 7.25.0
+      '@babel/types': 7.25.2
+      debug: 4.3.6
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -12211,7 +12245,7 @@ snapshots:
   autoprefixer@10.4.15(postcss@8.4.28):
     dependencies:
       browserslist: 4.23.2
-      caniuse-lite: 1.0.30001643
+      caniuse-lite: 1.0.30001647
       fraction.js: 4.2.1
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -12245,8 +12279,8 @@ snapshots:
   babel-eslint@10.1.0(eslint@7.32.0):
     dependencies:
       '@babel/code-frame': 7.24.7
-      '@babel/parser': 7.25.0
-      '@babel/traverse': 7.25.2
+      '@babel/parser': 7.25.3
+      '@babel/traverse': 7.25.3
       '@babel/types': 7.25.2
       eslint: 7.32.0
       eslint-visitor-keys: 1.3.0
@@ -12497,7 +12531,7 @@ snapshots:
 
   browserslist@4.23.2:
     dependencies:
-      caniuse-lite: 1.0.30001643
+      caniuse-lite: 1.0.30001647
       electron-to-chromium: 1.4.827
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
@@ -12575,11 +12609,11 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.23.2
-      caniuse-lite: 1.0.30001643
+      caniuse-lite: 1.0.30001647
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-lite@1.0.30001643: {}
+  caniuse-lite@1.0.30001647: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -13035,6 +13069,10 @@ snapshots:
       ms: 2.1.2
 
   debug@4.3.5:
+    dependencies:
+      ms: 2.1.2
+
+  debug@4.3.6:
     dependencies:
       ms: 2.1.2
 
