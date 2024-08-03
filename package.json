@@ -52,7 +52,7 @@
   },
   "pnpm" : {
     "overrides": {
-    "axios": "1.7.2"
+    "axios": "1.7.3"
     }
   },
   "packageManager": "pnpm@9.6.0",
