@@ -33,8 +33,8 @@ importers:
   .:
     dependencies:
       '@mdx-js/react':
-        specifier: 3.0.1
-        version: 3.0.1(@types/react@18.3.11)(react@18.3.1)
+        specifier: 3.1.0
+        version: 3.1.0(@types/react@18.3.11)(react@18.3.1)
       gatsby:
         specifier: 5.13.7
         version: 5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4)
@@ -46,7 +46,7 @@ importers:
         version: 5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)
       gatsby-plugin-mdx:
         specifier: 5.13.1
-        version: 5.13.1(@mdx-js/react@3.0.1(@types/react@18.3.11)(react@18.3.1))(gatsby-source-filesystem@5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4)))(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.13.1(@mdx-js/react@3.1.0(@types/react@18.3.11)(react@18.3.1))(gatsby-source-filesystem@5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4)))(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       gatsby-plugin-sharp:
         specifier: 5.13.1
         version: 5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)
@@ -1710,8 +1710,8 @@ packages:
     peerDependencies:
       react: '>=16'
 
-  '@mdx-js/react@3.0.1':
-    resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
+  '@mdx-js/react@3.1.0':
+    resolution: {integrity: sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
@@ -10579,7 +10579,7 @@ snapshots:
       '@types/react': 18.3.11
       react: 18.3.1
 
-  '@mdx-js/react@3.0.1(@types/react@18.3.11)(react@18.3.1)':
+  '@mdx-js/react@3.1.0(@types/react@18.3.11)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.6
       '@types/react': 18.3.11
@@ -14798,10 +14798,10 @@ snapshots:
     transitivePeerDependencies:
       - graphql
 
-  gatsby-plugin-mdx@5.13.1(@mdx-js/react@3.0.1(@types/react@18.3.11)(react@18.3.1))(gatsby-source-filesystem@5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4)))(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  gatsby-plugin-mdx@5.13.1(@mdx-js/react@3.1.0(@types/react@18.3.11)(react@18.3.1))(gatsby-source-filesystem@5.13.1(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4)))(gatsby@5.13.7(@swc/core@1.3.93)(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.6.3)(webpack-hot-middleware@2.25.4))(graphql@16.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@mdx-js/react': 3.0.1(@types/react@18.3.11)(react@18.3.1)
+      '@mdx-js/react': 3.1.0(@types/react@18.3.11)(react@18.3.1)
       acorn: 8.10.0
       acorn-jsx: 5.3.2(acorn@8.10.0)
       astring: 1.8.6
