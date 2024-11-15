@@ -163,7 +163,7 @@
       "ws@>=8.0.0 <8.17.1": ">=8.17.1"
     }
   },
-  "packageManager": "pnpm@9.13.0",
+  "packageManager": "pnpm@9.13.2",
   "engines": {
     "node": ">=20",
     "pnpm": ">=8"
