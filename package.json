@@ -2,7 +2,9 @@
   "name": "baseline-gatsby-site",
   "description": "Baseline configuration of Gatsby with preferred tooling",
   "version": "0.1.0",
-  "author": "James Ramirez",
+  "author": {
+    "name": "James Ramirez"
+  },
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -69,6 +71,7 @@
       "body-parser@<1.20.3": ">=1.20.3",
       "braces@<3.0.3": ">=3.0.3",
       "cookie@<0.7.0": ">=0.7.0",
+      "cross-spawn@<7.0.5": ">=7.0.5",
       "deep-equal": "npm:@socketregistry/deep-equal@^1",
       "define-properties": "npm:@socketregistry/define-properties@^1",
       "ejs@<3.1.10": ">=3.1.10",
@@ -142,6 +145,7 @@
       "serve-static@<1.16.0": ">=1.16.0",
       "set-function-length": "npm:@socketregistry/set-function-length@^1",
       "side-channel": "npm:@socketregistry/side-channel@^1",
+      "string.prototype.includes": "npm:@socketregistry/string.prototype.includes@^1",
       "string.prototype.matchall": "npm:@socketregistry/string.prototype.matchall@^1",
       "string.prototype.trim": "npm:@socketregistry/string.prototype.trim@^1",
       "string.prototype.trimend": "npm:@socketregistry/string.prototype.trimend@^1",
