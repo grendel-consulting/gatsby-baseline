@@ -45,7 +45,7 @@
     "@storybook/testing-library": "0.2.2",
     "@types/node": "22.10.1",
     "@types/react": "19.0.1",
-    "@types/react-dom": "19.0.1",
+    "@types/react-dom": "19.0.2",
     "gatsby-plugin-pnpm": "1.2.10",
     "prop-types": "15.8.1",
     "storybook": "7.6.20",
